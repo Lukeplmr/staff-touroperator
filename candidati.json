@@ -1,26 +1,392 @@
 [
   {
-    "id": 23,
-    "nome": "Mario",
-    "cognome": "Rossi",
-    "anno_nascita": 1998,
-    "eta": 27,
-    "instagram": "matte_2201",
-    "descrizione": "Animatore con esperienza in Grecia",
-    "città": "Roma",
-    "voto": 8.5,
-    "foto": "foto/23.jpg"
+    "id": 47,
+    "nome": "Chiara",
+    "cognome": "Pucciotti",
+    "voto": "8,00",
+    "compleanno": "06/08/2001",
+    "età": 23,
+    "città": "Sesto Fiorentino",
+    "instagram": "chiarapct"
   },
   {
-    "id": 42,
-    "nome": "Giulia",
-    "cognome": "Bianchi",
-    "anno_nascita": 2001,
-    "eta": 24,
-    "instagram": "chiarapct",
-    "descrizione": "Appassionata di animazione per bambini",
-    "città": "Milano",
-    "voto": 9.2,
-    "foto": "foto/42.jpg"
+    "id": 16,
+    "nome": "Mateusz",
+    "cognome": "Muszynski",
+    "voto": "8,00",
+    "compleanno": "23/06/2001",
+    "età": 23,
+    "città": "Sanremo ma vive a Milano",
+    "instagram": "matte_2201"
+  },
+  {
+    "id": 3,
+    "nome": "Agostino",
+    "cognome": "Carrotta",
+    "voto": "7,75",
+    "compleanno": "14/08/2002",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "ago.carrotta"
+  },
+  {
+    "id": 28,
+    "nome": "Emilia",
+    "cognome": "Di Sarno",
+    "voto": "7,75",
+    "compleanno": "01/10/2002",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "_emids"
+  },
+  {
+    "id": 20,
+    "nome": "Francesco",
+    "cognome": "Gatti",
+    "voto": "7,75",
+    "compleanno": "01/09/2000",
+    "età": 24,
+    "città": "Parma",
+    "instagram": "francesco.gatti_"
+  },
+  {
+    "id": 12,
+    "nome": "Alessia",
+    "cognome": "Piano",
+    "voto": "7,50",
+    "compleanno": "29/11/2004",
+    "età": 20,
+    "città": "Genova",
+    "instagram": "alessia.pianoo"
+  },
+  {
+    "id": 2,
+    "nome": "Benedetta",
+    "cognome": "Rizzo",
+    "voto": "7,50",
+    "compleanno": "13/05/2002",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "_benedetta_rizzo"
+  },
+  {
+    "id": 24,
+    "nome": "Giuseppe",
+    "cognome": "Gervasio",
+    "voto": "7,50",
+    "compleanno": "31/01/2003",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "peppe__gervy"
+  },
+  {
+    "id": 22,
+    "nome": "Lorenzo",
+    "cognome": "Rossi",
+    "voto": "7,50",
+    "compleanno": "01/07/1999",
+    "età": 25,
+    "città": "Roma",
+    "instagram": "lorenzorezz"
+  },
+  {
+    "id": 7,
+    "nome": "Carmine",
+    "cognome": "De Micco",
+    "voto": "7,00",
+    "compleanno": "12/09/2002",
+    "età": 22,
+    "città": "Cercola",
+    "instagram": "carmine_demicco"
+  },
+  {
+    "id": 41,
+    "nome": "Concetta",
+    "cognome": "D'Avino",
+    "voto": "7,00",
+    "compleanno": "04/12/2002",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "concetta.davino"
+  },
+  {
+    "id": 29,
+    "nome": "Marina",
+    "cognome": "Navarra",
+    "voto": "7,00",
+    "compleanno": "17/10/2002",
+    "età": 22,
+    "città": "Napoli",
+    "instagram": "__marinanavarra__"
+  },
+  {
+    "id": 52,
+    "nome": "Martina",
+    "cognome": "Figini",
+    "voto": "7,00",
+    "compleanno": "15/11/2005",
+    "età": 19,
+    "città": "Arese",
+    "instagram": "martinafiginii"
+  },
+  {
+    "id": 33,
+    "nome": "Thodora",
+    "cognome": "Timus Genes",
+    "voto": "7,00",
+    "compleanno": "04/10/2006",
+    "età": 18,
+    "città": "Asola",
+    "instagram": "_t.i.m.u.s__"
+  },
+  {
+    "id": 37,
+    "nome": "Alberto",
+    "cognome": "Piovan",
+    "voto": "6,75",
+    "compleanno": "14/09/2000",
+    "età": 24,
+    "città": "Padova",
+    "instagram": "albi.piovan"
+  },
+  {
+    "id": 9,
+    "nome": "Antonio",
+    "cognome": "Serino",
+    "voto": "6,75",
+    "compleanno": "29/11/1999",
+    "età": 25,
+    "città": "Nola ma vive a Rimini",
+    "instagram": "tonyserino"
+  },
+  {
+    "id": 32,
+    "nome": "Giorgio",
+    "cognome": "Guadagno",
+    "voto": "6,75",
+    "compleanno": "09/04/2001",
+    "età": 24,
+    "città": "Napoli",
+    "instagram": "iamgiorgioguadagno"
+  },
+  {
+    "id": 19,
+    "nome": "Simonpietro",
+    "cognome": "Peluso",
+    "voto": "6,75",
+    "compleanno": "30/04/2001",
+    "età": 23,
+    "città": "Napoli",
+    "instagram": "_simonepeluso"
+  },
+  {
+    "id": 8,
+    "nome": "Chiara",
+    "cognome": "Festevole",
+    "voto": "6,50",
+    "compleanno": "19/01/2001",
+    "età": 24,
+    "città": "Avellino",
+    "instagram": ""
+  },
+  {
+    "id": 54,
+    "nome": "Gabriele",
+    "cognome": "Sala",
+    "voto": "6,50",
+    "compleanno": "12/08/2003",
+    "età": 21,
+    "città": "Torino",
+    "instagram": "sala.gabri"
+  },
+  {
+    "id": 38,
+    "nome": "Gioele",
+    "cognome": "Minafra",
+    "voto": "6,50",
+    "compleanno": "29/01/2005",
+    "età": 20,
+    "città": "Ruvo di Puglia",
+    "instagram": "gioeleminafra"
+  },
+  {
+    "id": 46,
+    "nome": "Barbara",
+    "cognome": "Aracri",
+    "voto": "6,25",
+    "compleanno": "31/07/2006",
+    "età": 18,
+    "città": "Napoli",
+    "instagram": "barbaraaracri"
+  },
+  {
+    "id": 13,
+    "nome": "Bianca",
+    "cognome": "Scandone",
+    "voto": "6,25",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 36,
+    "nome": "Pietro",
+    "cognome": "Salmaso",
+    "voto": "6,25",
+    "compleanno": "09/12/2002",
+    "età": 22,
+    "città": "Padova",
+    "instagram": "pietrosalmaso"
+  },
+  {
+    "id": 5,
+    "nome": "Abdoul Fataou",
+    "cognome": "Bara",
+    "voto": "6,00",
+    "compleanno": "03/03/2003",
+    "età": 22,
+    "città": "Molteno",
+    "instagram": "_faatao_"
+  },
+  {
+    "id": 26,
+    "nome": "Alessia",
+    "cognome": "Sibilio",
+    "voto": "6,00",
+    "compleanno": "04/07/2003",
+    "età": 21,
+    "città": "Napoli",
+    "instagram": "alessia_sibilio"
+  },
+  {
+    "id": 18,
+    "nome": "Filippo",
+    "cognome": "Marasco",
+    "voto": "5,75",
+    "compleanno": "28/07/2004",
+    "età": 20,
+    "città": "Torino",
+    "instagram": "_filimara_"
+  },
+  {
+    "id": 50,
+    "nome": "Gaia",
+    "cognome": "Ventura",
+    "voto": "5,75",
+    "compleanno": "29/07/2005",
+    "età": 19,
+    "città": "Brescia",
+    "instagram": "gaiaventura._"
+  },
+  {
+    "id": 15,
+    "nome": "Moncef",
+    "cognome": "Mazouz",
+    "voto": "5,75",
+    "compleanno": "19/07/2001",
+    "età": 23,
+    "città": "Lecco",
+    "instagram": "mooncef_"
+  },
+  {
+    "id": 40,
+    "nome": "Alessandro",
+    "cognome": "Pitetti",
+    "voto": "5,50",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 35,
+    "nome": "Simona",
+    "cognome": "Narciso",
+    "voto": "5,50",
+    "compleanno": "13/11/2004",
+    "età": 20,
+    "città": "Catania",
+    "instagram": "simona.narciso13"
+  },
+  {
+    "id": 14,
+    "nome": "Christian",
+    "cognome": "Feira",
+    "voto": "5,25",
+    "compleanno": "12/12/2004",
+    "età": 20,
+    "città": "Torino",
+    "instagram": "_chry.f_"
+  },
+  {
+    "id": 6,
+    "nome": "Alessandra",
+    "cognome": "Viola",
+    "voto": "8,25",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 31,
+    "nome": "Rachele",
+    "cognome": "Pavini",
+    "voto": "6,75",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 49,
+    "nome": "Antonio",
+    "cognome": "Testa",
+    "voto": "6,50",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 17,
+    "nome": "Francesco",
+    "cognome": "Galdiero",
+    "voto": "6,50",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 39,
+    "nome": "Valentina",
+    "cognome": "Pasquale",
+    "voto": "5,00",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 56,
+    "nome": "Alessia",
+    "cognome": "Stumpo",
+    "voto": "?,??",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
+  },
+  {
+    "id": 21,
+    "nome": "Gabriele",
+    "cognome": "Lucarelli",
+    "voto": "?,??",
+    "compleanno": "",
+    "età": "",
+    "città": "",
+    "instagram": ""
   }
 ]
