@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Georgia', serif
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #E4D6C5;
     }
+
+    a {
+      color: inherit; /* usa il colore del testo circostante */
+      text-decoration: none; /* rimuove la sottolineatura */
+    }
+
 
     .card {
       max-width: 800px;
@@ -28,10 +34,11 @@
       flex: 1;
       padding: 1rem;
       display: flex;
+      width: 100%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background-color: #fafafa;
+      background-color: #78898F;
     }
 
     .left img {
@@ -51,6 +58,8 @@
     .right {
       flex: 2;
       padding: 1rem;
+      background-color: #8D957E;
+
     }
 
     .left h2 {
@@ -66,7 +75,7 @@
         position: absolute;
         top: 10px;
         left: 10px;
-        background-color: #007bff;
+        background-color: #984216;
         color: white;
         border-radius: 50%;
         width: 40px;
@@ -99,12 +108,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 10vh; /* 100vh - 85vh = 15vh, la metà è 7.5vh */
+        margin-top: 10vh;
+      }
+
+      .badge {
+        top: 7,5px;
+        left: 25px;
       }
       
-      .left, .right {
-        text-align: center;
-      }
+
     }
   </style>
 </head>
@@ -120,20 +132,35 @@
 
         data.forEach(candidato => {
           const card = document.createElement('div');
+          const lingueHTML = candidato.lingue?.length
+          ? `<p><strong>Lingue conosciute:</strong>
+            <ul>${candidato.lingue.map(lingua => `<li>${lingua}</li>`).join('')}</ul>
+             </p>`
+          : '';
+
           card.className = 'card';
 
           card.innerHTML = `
+
             <div class="left" style="position: relative;">
               <div class="badge">${candidato.id}</div>
               <img src="${candidato.foto}" alt="Foto di ${candidato.nome} ${candidato.cognome}">
               <h2>${candidato.nome} ${candidato.cognome}</h2>
-              <p><strong>Anno di nascita:</strong> ${candidato.compleanno}</p>
+              <p><strong>Giorno di nascita:</strong> ${candidato.compleanno}</p>
               <p><strong>Età:</strong> ${candidato.età}</p>
-              <p><strong>Instagram:</strong> <a href="https://instagram.com/${candidato.instagram}" target="_blank">@${candidato.instagram}</a></p>
               <p><strong>Città:</strong> ${candidato.città}</p>
+              <p><strong>Instagram:</strong> <a href="https://instagram.com/${candidato.instagram}" target="_blank">@${candidato.instagram}</a></p>
               <p><strong>Voto:</strong> ${candidato.voto}</p>
             </div>
+
             <div class="right">
+              <h3> Inormazioni </h3>
+              ${lingueHTML}
+              <p><strong>Ha la patente:</strong> ${candidato.patente}</p>
+              <p><strong>Guida il motorino:</strong> ${candidato.motorino}</p>
+
+
+              <h3> Descrizione </h3>
               <div class="description">${candidato.descrizione}</div>
             </div>
           `;
