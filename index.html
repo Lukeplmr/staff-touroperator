@@ -19,6 +19,10 @@
       text-decoration: none; /* rimuove la sottolineatura */
     }
 
+    h2 {
+      text-align: center;
+    }
+
 
     .card {
       max-width: 800px;
@@ -52,7 +56,8 @@
     .right .description {
       font-size: 0.9rem;
       text-align: center;
-      color: #555;
+      color: #090909;
+      font-family: 'Courier New', monospace
     }
 
     .right {
@@ -61,6 +66,17 @@
       background-color: #8D957E;
 
     }
+
+    .right ul {
+      padding-left: 1.2rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .right li {
+      list-style-type: disc;
+    }
+
 
     .left h2 {
       margin-top: 0;
@@ -154,14 +170,14 @@
             </div>
 
             <div class="right">
-              <h3> Inormazioni </h3>
+              <h2> Inormazioni </h2>
               ${lingueHTML}
               <p><strong>Ha la patente:</strong> ${candidato.patente}</p>
               <p><strong>Guida il motorino:</strong> ${candidato.motorino}</p>
 
 
-              <h3> Descrizione </h3>
-              <div class="description">${candidato.descrizione}</div>
+              <h2> Descrizione </h2>
+              <div class="description"><strong>${candidato.descrizione}</strong></div>
             </div>
           `;
 
