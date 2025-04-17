@@ -32,6 +32,7 @@
     "età": 22,
     "città": "Napoli",
     "instagram": "ago.carrotta",
+    "foto": "foto/16.jpg",
     "descrizione": "Nato e cresciuto a Napoli, studia design industriale a Firenze e lavora part-time in uno studio di architettura. Ha la passione per la cucina e la street art, partecipa a maratone urbane e cura una pagina Instagram dove unisce arte e sport."
   },
   {
@@ -42,7 +43,8 @@
     "compleanno": "01/10/2002",
     "età": 22,
     "città": "Napoli",
-    "instagram": "_emids"
+    "instagram": "_emids",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 20,
@@ -52,7 +54,8 @@
     "compleanno": "01/09/2000",
     "età": 24,
     "città": "Parma",
-    "instagram": "francesco.gatti_"
+    "instagram": "francesco.gatti_",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 12,
@@ -62,7 +65,8 @@
     "compleanno": "29/11/2004",
     "età": 20,
     "città": "Genova",
-    "instagram": "alessia.pianoo"
+    "instagram": "alessia.pianoo",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 2,
@@ -72,7 +76,8 @@
     "compleanno": "13/05/2002",
     "età": 22,
     "città": "Napoli",
-    "instagram": "_benedetta_rizzo"
+    "instagram": "_benedetta_rizzo",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 24,
@@ -82,7 +87,8 @@
     "compleanno": "31/01/2003",
     "età": 22,
     "città": "Napoli",
-    "instagram": "peppe__gervy"
+    "instagram": "peppe__gervy",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 22,
@@ -92,7 +98,8 @@
     "compleanno": "01/07/1999",
     "età": 25,
     "città": "Roma",
-    "instagram": "lorenzorezz"
+    "instagram": "lorenzorezz",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 7,
@@ -102,7 +109,8 @@
     "compleanno": "12/09/2002",
     "età": 22,
     "città": "Cercola",
-    "instagram": "carmine_demicco"
+    "instagram": "carmine_demicco",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 41,
@@ -112,7 +120,8 @@
     "compleanno": "04/12/2002",
     "età": 22,
     "città": "Napoli",
-    "instagram": "concetta.davino"
+    "instagram": "concetta.davino",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 29,
@@ -122,7 +131,8 @@
     "compleanno": "17/10/2002",
     "età": 22,
     "città": "Napoli",
-    "instagram": "__marinanavarra__"
+    "instagram": "__marinanavarra__",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 52,
@@ -132,7 +142,8 @@
     "compleanno": "15/11/2005",
     "età": 19,
     "città": "Arese",
-    "instagram": "martinafiginii"
+    "instagram": "martinafiginii",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 33,
@@ -142,7 +153,8 @@
     "compleanno": "04/10/2006",
     "età": 18,
     "città": "Asola",
-    "instagram": "_t.i.m.u.s__"
+    "instagram": "_t.i.m.u.s__",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 37,
@@ -152,7 +164,8 @@
     "compleanno": "14/09/2000",
     "età": 24,
     "città": "Padova",
-    "instagram": "albi.piovan"
+    "instagram": "albi.piovan",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 9,
@@ -162,7 +175,8 @@
     "compleanno": "29/11/1999",
     "età": 25,
     "città": "Nola ma vive a Rimini",
-    "instagram": "tonyserino"
+    "instagram": "tonyserino",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 32,
@@ -172,7 +186,8 @@
     "compleanno": "09/04/2001",
     "età": 24,
     "città": "Napoli",
-    "instagram": "iamgiorgioguadagno"
+    "instagram": "iamgiorgioguadagno",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 19,
@@ -183,6 +198,7 @@
     "età": 23,
     "città": "Napoli",
     "instagram": "_simonepeluso"
+    "foto": "foto/16.jpg"
   },
   {
     "id": 8,
@@ -192,7 +208,8 @@
     "compleanno": "19/01/2001",
     "età": 24,
     "città": "Avellino",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 54,
@@ -202,7 +219,8 @@
     "compleanno": "12/08/2003",
     "età": 21,
     "città": "Torino",
-    "instagram": "sala.gabri"
+    "instagram": "sala.gabri",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 38,
@@ -212,7 +230,8 @@
     "compleanno": "29/01/2005",
     "età": 20,
     "città": "Ruvo di Puglia",
-    "instagram": "gioeleminafra"
+    "instagram": "gioeleminafra",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 46,
@@ -222,7 +241,8 @@
     "compleanno": "31/07/2006",
     "età": 18,
     "città": "Napoli",
-    "instagram": "barbaraaracri"
+    "instagram": "barbaraaracri",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 13,
@@ -232,7 +252,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 36,
@@ -242,7 +263,8 @@
     "compleanno": "09/12/2002",
     "età": 22,
     "città": "Padova",
-    "instagram": "pietrosalmaso"
+    "instagram": "pietrosalmaso",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 5,
@@ -252,7 +274,8 @@
     "compleanno": "03/03/2003",
     "età": 22,
     "città": "Molteno",
-    "instagram": "_faatao_"
+    "instagram": "_faatao_",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 26,
@@ -262,7 +285,8 @@
     "compleanno": "04/07/2003",
     "età": 21,
     "città": "Napoli",
-    "instagram": "alessia_sibilio"
+    "instagram": "alessia_sibilio",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 18,
@@ -272,7 +296,8 @@
     "compleanno": "28/07/2004",
     "età": 20,
     "città": "Torino",
-    "instagram": "_filimara_"
+    "instagram": "_filimara_",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 50,
@@ -282,7 +307,8 @@
     "compleanno": "29/07/2005",
     "età": 19,
     "città": "Brescia",
-    "instagram": "gaiaventura._"
+    "instagram": "gaiaventura._",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 15,
@@ -292,7 +318,8 @@
     "compleanno": "19/07/2001",
     "età": 23,
     "città": "Lecco",
-    "instagram": "mooncef_"
+    "instagram": "mooncef_",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 40,
@@ -302,7 +329,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 35,
@@ -312,7 +340,8 @@
     "compleanno": "13/11/2004",
     "età": 20,
     "città": "Catania",
-    "instagram": "simona.narciso13"
+    "instagram": "simona.narciso13",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 14,
@@ -322,7 +351,8 @@
     "compleanno": "12/12/2004",
     "età": 20,
     "città": "Torino",
-    "instagram": "_chry.f_"
+    "instagram": "_chry.f_",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 6,
@@ -332,7 +362,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 31,
@@ -342,7 +373,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 49,
@@ -352,7 +384,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 17,
@@ -362,7 +395,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/16.jpg"
   },
   {
     "id": 39,
@@ -372,7 +406,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 56,
@@ -382,7 +417,8 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/47.jpg"
   },
   {
     "id": 21,
@@ -392,6 +428,7 @@
     "compleanno": "",
     "età": "",
     "città": "",
-    "instagram": ""
+    "instagram": "",
+    "foto": "foto/16.jpg"
   }
 ]
