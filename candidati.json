@@ -8,7 +8,8 @@
     "età": 23,
     "città": "Sesto Fiorentino",
     "instagram": "chiarapct",
-    "foto": "foto/47.jpg"
+    "foto": "foto/47.jpg",
+    "descrizione": "Di origine albanese, vive a Roma da quando era bambino, studia giurisprudenza alla Sapienza e lavora come tutor universitario. Appassionato di politica internazionale e musica jazz, suona il sax e sta scrivendo un blog di viaggi culturali."
   },
   {
     "id": 16,
@@ -19,7 +20,8 @@
     "età": 23,
     "città": "Sanremo ma vive a Milano",
     "instagram": "matte_2201",
-    "foto": "foto/16.jpg"
+    "foto": "foto/16.jpg",
+    "descrizione": "Italo-brasiliano, nato a San Paolo ma cresciuto a Bologna, studia scienze della comunicazione e lavora in una web agency come videomaker. Amante della fotografia e del trekking, ha percorso il Cammino di Santiago e sogna di lavorare in Patagonia."
   },
   {
     "id": 3,
@@ -29,7 +31,8 @@
     "compleanno": "14/08/2002",
     "età": 22,
     "città": "Napoli",
-    "instagram": "ago.carrotta"
+    "instagram": "ago.carrotta",
+    "descrizione": "Nato e cresciuto a Napoli, studia design industriale a Firenze e lavora part-time in uno studio di architettura. Ha la passione per la cucina e la street art, partecipa a maratone urbane e cura una pagina Instagram dove unisce arte e sport."
   },
   {
     "id": 28,
