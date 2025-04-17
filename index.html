@@ -105,7 +105,8 @@
           card.className = 'card';
 
           card.innerHTML = `
-            <div class="left">
+            <div class="left"
+              <div class="badge">#${candidato.id}</div>
               <img src="${candidato.foto}" alt="Foto di ${candidato.nome} ${candidato.cognome}">
               <div class="description">${candidato.descrizione}</div>
             </div>
