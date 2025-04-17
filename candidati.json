@@ -7,6 +7,8 @@
     "eta": 27,
     "instagram": "matte_2201",
     "descrizione": "Animatore con esperienza in Grecia",
+    "città": "Roma",
+    "voto": 8.5,
     "foto": "foto/23.jpg"
   },
   {
@@ -17,6 +19,8 @@
     "eta": 24,
     "instagram": "chiarapct",
     "descrizione": "Appassionata di animazione per bambini",
+    "città": "Milano",
+    "voto": 9.2,
     "foto": "foto/42.jpg"
   }
 ]
