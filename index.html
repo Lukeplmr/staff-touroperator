@@ -118,6 +118,28 @@
           body.appendChild(card);
         });
       });
+    document.addEventListener('DOMContentLoaded', function() {
+    const candidates = document.querySelectorAll('.card');
+    const body = document.querySelector('body');
+
+    // Aggiungi scroll-snap al body per lo scorrimento fluido
+    body.style.scrollSnapType = 'y mandatory';
+
+    // Scrolling fluido e centrato
+    candidates.forEach(candidate => {
+      candidate.addEventListener('click', () => {
+        candidate.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'  // Centra la card quando viene cliccata
+        });
+      });
+    });
+
+    // Aggiungi scroll-snap alla pagina per centrare ogni card
+    candidates.forEach(candidate => {
+      candidate.style.scrollSnapAlign = 'center';
+    });
+  });
   </script>
 </body>
 </html>
