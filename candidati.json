@@ -12,7 +12,7 @@
     "patente": "Si",
     "motorino": "No",
     "foto": "foto/47.jpg",
-    "descrizione": "Si è diplomata allo scienze umane, poi ha cominciato a lavorare. Oggi lavora in un concessionario con mansioni amministrativo finanziarie, sogna di comprarsi una macchina e una casa. Era pallavolista ora si dedica alla palestra. Era emozionata per la nostra risposta"
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
     "id": 16,
@@ -23,8 +23,9 @@
     "età": 23,
     "città": "Sanremo ma vive a Milano",
     "instagram": "matte_2201",
+    "lingue": ["inglese", "spagnolo"],
     "foto": "foto/16.jpg",
-    "descrizione": "Italo-brasiliano, nato a San Paolo ma cresciuto a Bologna, studia scienze della comunicazione e lavora in una web agency come videomaker. Amante della fotografia e del trekking, ha percorso il Cammino di Santiago e sogna di lavorare in Patagonia."
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
     "id": 3,
@@ -35,8 +36,9 @@
     "età": 22,
     "città": "Napoli",
     "instagram": "ago.carrotta",
+    "lingue": ["inglese", "spagnolo"],
     "foto": "foto/16.jpg",
-    "descrizione": "Nato e cresciuto a Napoli, studia design industriale a Firenze e lavora part-time in uno studio di architettura. Ha la passione per la cucina e la street art, partecipa a maratone urbane e cura una pagina Instagram dove unisce arte e sport."
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
   },
   {
     "id": 28,
@@ -47,7 +49,9 @@
     "età": 22,
     "città": "Napoli",
     "instagram": "_emids",
-    "foto": "foto/47.jpg"
+    "lingue": ["inglese", "spagnolo"],
+    "foto": "foto/47.jpg",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
   },
   {
     "id": 20,
@@ -58,7 +62,9 @@
     "età": 24,
     "città": "Parma",
     "instagram": "francesco.gatti_",
-    "foto": "foto/16.jpg"
+    "lingue": ["inglese", "spagnolo"],
+    "foto": "foto/16.jpg",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
   },
   {
     "id": 12,
@@ -69,7 +75,9 @@
     "età": 20,
     "città": "Genova",
     "instagram": "alessia.pianoo",
-    "foto": "foto/47.jpg"
+    "foto": "foto/47.jpg",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
+  
   },
   {
     "id": 2,
@@ -80,7 +88,9 @@
     "età": 22,
     "città": "Napoli",
     "instagram": "_benedetta_rizzo",
-    "foto": "foto/47.jpg"
+    "foto": "foto/47.jpg",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
+
   },
   {
     "id": 24,

@@ -8,132 +8,140 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: 'Georgia', serif
-      margin: 0;
-      padding: 0;
-      background-color: #E4D6C5;
-    }
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E4D6C5;
+}
 
-    a {
-      color: inherit; /* usa il colore del testo circostante */
-      text-decoration: none; /* rimuove la sottolineatura */
-    }
+a {
+  color: inherit; /* usa il colore del testo circostante */
+  text-decoration: none; /* rimuove la sottolineatura */
+}
 
-    h2 {
-      text-align: center;
-    }
+h2, h3 {
+  text-align: center;
+}
 
+.card {
+  max-width: 800px;
+  margin: 2rem auto;
+  display: flex;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-    .card {
-      max-width: 800px;
-      margin: 2rem auto;
-      display: flex;
-      background: white;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      border-radius: 10px;
-      overflow: hidden;
-    }
+.left {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #78898F;
+}
 
-    .left {
-      flex: 1;
-      padding: 1rem;
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #78898F;
-    }
+.left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
 
-    .left img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 1rem;
-    }
+.right .description {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #090909;
+  font-family: 'Courier New', monospace;
+}
 
-    .right .description {
-      font-size: 0.9rem;
-      text-align: center;
-      color: #090909;
-      font-family: 'Courier New', monospace
-    }
+.right {
+  flex: 2;
+  padding: 1rem;
+  background-color: #8D957E;
+}
 
-    .right {
-      flex: 2;
-      padding: 1rem;
-      background-color: #8D957E;
+.right ul {
+  padding-left: 1.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
 
-    }
+.right li {
+  list-style-type: disc;
+}
 
-    .right ul {
-      padding-left: 1.2rem;
-      margin-top: 0.2rem;
-      margin-bottom: 0.8rem;
-    }
+.left h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
-    .right li {
-      list-style-type: disc;
-    }
+.left p {
+  margin: 0.3rem 0;
+}
 
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #984216;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
 
-    .left h2 {
-      margin-top: 0;
-      margin-bottom: 0.5rem;
-    }
+@media screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.0;
+  }
 
-    .left p {
-      margin: 0.3rem 0;
-    }
+  .scroll-container {
+    margin-top: 2.5vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    margin-bottom: 2.5vh;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
 
-     .badge {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        background-color: #984216;
-        color: white;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        font-size: 1rem;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
+  .card {
+    scroll-snap-align: start;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 
-    @media screen and (max-width: 600px) {
-      body {
-        overflow: hidden;
-      }
+  .right .description {
+    font-size: 10px;
+    line-height: 1.2;
+  }
 
-      .scroll-container {
-        height: 90vh;
-        overflow-y: scroll;
-        scroll-snap-type: y mandatory;
-        -webkit-overflow-scrolling: touch;
-      }
+  .badge {
+    top: 10px;
+    left: 25px;
+  }
+}
 
-      .card {
-        scroll-snap-align: start;
-        height: 90vh;
-        width: 100%;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10vh;
-      }
-
-      .badge {
-        top: 7,5px;
-        left: 25px;
-      }
-      
-
-    }
   </style>
 </head>
 <body>
@@ -170,13 +178,13 @@
             </div>
 
             <div class="right">
-              <h2> Inormazioni </h2>
+              <h3> Inormazioni </h3>
               ${lingueHTML}
               <p><strong>Ha la patente:</strong> ${candidato.patente}</p>
               <p><strong>Guida il motorino:</strong> ${candidato.motorino}</p>
 
 
-              <h2> Descrizione </h2>
+              <h3> Descrizione </h3>
               <div class="description"><strong>${candidato.descrizione}</strong></div>
             </div>
           `;
