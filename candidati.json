@@ -1,447 +1,721 @@
 [
   {
-    "id": 47,
+    "id": "47",
     "nome": "Chiara",
     "cognome": "Pucciotti",
-    "voto": "8,00",
+    "voto": 8,
     "compleanno": "06/08/2001",
+    "foto": "foto/47.jpg",
     "età": 23,
     "città": "Sesto Fiorentino",
     "instagram": "chiarapct",
-    "lingue": ["inglese", "spagnolo"],
+    "lingue": [
+      "Inglese Scolastico"
+    ],
     "patente": "Si",
-    "motorino": "No",
-    "foto": "foto/47.jpg",
+    "motorino": "Si",
     "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 16,
-    "nome": "Mateusz",
-    "cognome": "Muszynski",
-    "voto": "8,00",
-    "compleanno": "23/06/2001",
-    "età": 23,
-    "città": "Sanremo ma vive a Milano",
-    "instagram": "matte_2201",
-    "lingue": ["inglese", "spagnolo"],
-    "foto": "foto/16.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
-  },
-  {
-    "id": 3,
+    "id": "03",
     "nome": "Agostino",
     "cognome": "Carrotta",
-    "voto": "7,75",
+    "voto": 7.75,
     "compleanno": "14/08/2002",
+    "foto": "foto/16.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "ago.carrotta",
-    "lingue": ["inglese", "spagnolo"],
-    "foto": "foto/16.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
+    "lingue": [
+      "Inglese B1",
+      "Spagnolo"
+    ],
+    "patente": "Si",
+    "motorino": "No",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 28,
+    "id": "28",
     "nome": "Emilia",
     "cognome": "Di Sarno",
-    "voto": "7,75",
+    "voto": 7.75,
     "compleanno": "01/10/2002",
+    "foto": "foto/47.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "_emids",
-    "lingue": ["inglese", "spagnolo"],
-    "foto": "foto/47.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 20,
+    "id": "20",
     "nome": "Francesco",
     "cognome": "Gatti",
-    "voto": "7,75",
+    "voto": 7.75,
     "compleanno": "01/09/2000",
+    "foto": "foto/16.jpg",
     "età": 24,
     "città": "Parma",
     "instagram": "francesco.gatti_",
-    "lingue": ["inglese", "spagnolo"],
-    "foto": "foto/16.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 12,
+    "id": "12",
     "nome": "Alessia",
     "cognome": "Piano",
-    "voto": "7,50",
+    "voto": 7.5,
     "compleanno": "29/11/2004",
+    "foto": "foto/47.jpg",
     "età": 20,
     "città": "Genova",
     "instagram": "alessia.pianoo",
-    "foto": "foto/47.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
-  
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 2,
+    "id": "02",
     "nome": "Benedetta",
     "cognome": "Rizzo",
-    "voto": "7,50",
+    "voto": 7.5,
     "compleanno": "13/05/2002",
+    "foto": "foto/47.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "_benedetta_rizzo",
-    "foto": "foto/47.jpg",
-    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Fa frase di 217."
-
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 24,
+    "id": "24",
     "nome": "Giuseppe",
     "cognome": "Gervasio",
-    "voto": "7,50",
+    "voto": 7.5,
     "compleanno": "31/01/2003",
+    "foto": "foto/16.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "peppe__gervy",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 22,
+    "id": "22",
     "nome": "Lorenzo",
     "cognome": "Rossi",
-    "voto": "7,50",
+    "voto": 7.5,
     "compleanno": "01/07/1999",
+    "foto": "foto/16.jpg",
     "età": 25,
     "città": "Roma",
     "instagram": "lorenzorezz",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 7,
+    "id": "07",
     "nome": "Carmine",
     "cognome": "De Micco",
-    "voto": "7,00",
+    "voto": 7,
     "compleanno": "12/09/2002",
+    "foto": "foto/16.jpg",
     "età": 22,
     "città": "Cercola",
     "instagram": "carmine_demicco",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 41,
+    "id": "41",
     "nome": "Concetta",
     "cognome": "D'Avino",
-    "voto": "7,00",
+    "voto": 7,
     "compleanno": "04/12/2002",
+    "foto": "foto/47.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "concetta.davino",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 29,
+    "id": "29",
     "nome": "Marina",
     "cognome": "Navarra",
-    "voto": "7,00",
+    "voto": 7,
     "compleanno": "17/10/2002",
+    "foto": "foto/47.jpg",
     "età": 22,
     "città": "Napoli",
     "instagram": "__marinanavarra__",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 52,
+    "id": "52",
     "nome": "Martina",
     "cognome": "Figini",
-    "voto": "7,00",
+    "voto": 7,
     "compleanno": "15/11/2005",
+    "foto": "foto/47.jpg",
     "età": 19,
     "città": "Arese",
     "instagram": "martinafiginii",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 33,
+    "id": "33",
     "nome": "Thodora",
     "cognome": "Timus Genes",
-    "voto": "7,00",
+    "voto": 7,
     "compleanno": "04/10/2006",
+    "foto": "foto/47.jpg",
     "età": 18,
     "città": "Asola",
     "instagram": "_t.i.m.u.s__",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 37,
+    "id": "37",
     "nome": "Alberto",
     "cognome": "Piovan",
-    "voto": "6,75",
+    "voto": 6.75,
     "compleanno": "14/09/2000",
+    "foto": "foto/16.jpg",
     "età": 24,
     "città": "Padova",
     "instagram": "albi.piovan",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 9,
+    "id": "09",
     "nome": "Antonio",
     "cognome": "Serino",
-    "voto": "6,75",
+    "voto": 6.75,
     "compleanno": "29/11/1999",
+    "foto": "foto/16.jpg",
     "età": 25,
     "città": "Nola ma vive a Rimini",
     "instagram": "tonyserino",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 32,
+    "id": "32",
     "nome": "Giorgio",
     "cognome": "Guadagno",
-    "voto": "6,75",
+    "voto": 6.75,
     "compleanno": "09/04/2001",
+    "foto": "foto/16.jpg",
     "età": 24,
     "città": "Napoli",
     "instagram": "iamgiorgioguadagno",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 19,
+    "id": "19",
     "nome": "Simonpietro",
     "cognome": "Peluso",
-    "voto": "6,75",
+    "voto": 6.75,
     "compleanno": "30/04/2001",
-    "età": 23,
+    "foto": "foto/16.jpg",
+    "età": 24,
     "città": "Napoli",
     "instagram": "_simonepeluso",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 8,
+    "id": "08",
     "nome": "Chiara",
     "cognome": "Festevole",
-    "voto": "6,50",
+    "voto": 6.5,
     "compleanno": "19/01/2001",
+    "foto": "foto/47.jpg",
     "età": 24,
     "città": "Avellino",
     "instagram": "",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 54,
+    "id": "54",
     "nome": "Gabriele",
     "cognome": "Sala",
-    "voto": "6,50",
+    "voto": 6.5,
     "compleanno": "12/08/2003",
+    "foto": "foto/16.jpg",
     "età": 21,
     "città": "Torino",
     "instagram": "sala.gabri",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 38,
+    "id": "38",
     "nome": "Gioele",
     "cognome": "Minafra",
-    "voto": "6,50",
+    "voto": 6.5,
     "compleanno": "29/01/2005",
+    "foto": "foto/16.jpg",
     "età": 20,
     "città": "Ruvo di Puglia",
     "instagram": "gioeleminafra",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 46,
+    "id": "46",
     "nome": "Barbara",
     "cognome": "Aracri",
-    "voto": "6,25",
+    "voto": 6.25,
     "compleanno": "31/07/2006",
+    "foto": "foto/47.jpg",
     "età": 18,
     "città": "Napoli",
     "instagram": "barbaraaracri",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 13,
+    "id": "13",
     "nome": "Bianca",
     "cognome": "Scandone",
-    "voto": "6,25",
+    "voto": 6.25,
     "compleanno": "",
+    "foto": "foto/47.jpg",
     "età": "",
     "città": "",
     "instagram": "",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 36,
+    "id": "36",
     "nome": "Pietro",
     "cognome": "Salmaso",
-    "voto": "6,25",
+    "voto": 6.25,
     "compleanno": "09/12/2002",
+    "foto": "foto/16.jpg",
     "età": 22,
     "città": "Padova",
     "instagram": "pietrosalmaso",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 5,
+    "id": "05",
     "nome": "Abdoul Fataou",
     "cognome": "Bara",
-    "voto": "6,00",
+    "voto": 6,
     "compleanno": "03/03/2003",
+    "foto": "foto/16.jpg",
     "età": 22,
     "città": "Molteno",
     "instagram": "_faatao_",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 26,
+    "id": "26",
     "nome": "Alessia",
     "cognome": "Sibilio",
-    "voto": "6,00",
+    "voto": 6,
     "compleanno": "04/07/2003",
+    "foto": "foto/47.jpg",
     "età": 21,
     "città": "Napoli",
     "instagram": "alessia_sibilio",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 18,
+    "id": "18",
     "nome": "Filippo",
     "cognome": "Marasco",
-    "voto": "5,75",
+    "voto": 5.75,
     "compleanno": "28/07/2004",
+    "foto": "foto/16.jpg",
     "età": 20,
     "città": "Torino",
     "instagram": "_filimara_",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 50,
+    "id": "50",
     "nome": "Gaia",
     "cognome": "Ventura",
-    "voto": "5,75",
+    "voto": 5.75,
     "compleanno": "29/07/2005",
+    "foto": "foto/47.jpg",
     "età": 19,
     "città": "Brescia",
     "instagram": "gaiaventura._",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 15,
+    "id": "15",
     "nome": "Moncef",
     "cognome": "Mazouz",
-    "voto": "5,75",
+    "voto": 5.75,
     "compleanno": "19/07/2001",
+    "foto": "foto/16.jpg",
     "età": 23,
     "città": "Lecco",
     "instagram": "mooncef_",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 40,
+    "id": "40",
     "nome": "Alessandro",
     "cognome": "Pitetti",
-    "voto": "5,50",
+    "voto": 5.5,
     "compleanno": "",
+    "foto": "foto/16.jpg",
     "età": "",
     "città": "",
     "instagram": "",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 35,
+    "id": "35",
     "nome": "Simona",
     "cognome": "Narciso",
-    "voto": "5,50",
+    "voto": 5.5,
     "compleanno": "13/11/2004",
+    "foto": "foto/47.jpg",
     "età": 20,
     "città": "Catania",
     "instagram": "simona.narciso13",
-    "foto": "foto/47.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 14,
+    "id": "14",
     "nome": "Christian",
     "cognome": "Feira",
-    "voto": "5,25",
+    "voto": 5.25,
     "compleanno": "12/12/2004",
+    "foto": "foto/47.jpg",
     "età": 20,
     "città": "Torino",
     "instagram": "_chry.f_",
-    "foto": "foto/16.jpg"
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 6,
+    "id": "06",
     "nome": "Alessandra",
     "cognome": "Viola",
-    "voto": "8,25",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/47.jpg"
+    "voto": 8.25,
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 31,
+    "id": "31",
     "nome": "Rachele",
     "cognome": "Pavini",
-    "voto": "6,75",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/47.jpg"
+    "voto": 6.75,
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 49,
+    "id": "49",
     "nome": "Antonio",
     "cognome": "Testa",
-    "voto": "6,50",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/16.jpg"
+    "voto": 6.5,
+    "compleanno": "01/01/1000",
+    "foto": "foto/16.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 17,
+    "id": "17",
     "nome": "Francesco",
     "cognome": "Galdiero",
-    "voto": "6,50",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/16.jpg"
+    "voto": 6.5,
+    "compleanno": "01/01/1000",
+    "foto": "foto/16.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 39,
+    "id": "39",
     "nome": "Valentina",
     "cognome": "Pasquale",
-    "voto": "5,00",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/47.jpg"
+    "voto": 5,
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   },
   {
-    "id": 56,
+    "id": "56",
     "nome": "Alessia",
     "cognome": "Stumpo",
     "voto": "?,??",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/47.jpg"
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
   },
   {
-    "id": 21,
-    "nome": "Gabriele",
-    "cognome": "Lucarelli",
+    "id": 57,
+    "nome": "Paras",
+    "cognome": "Kumar",
     "voto": "?,??",
-    "compleanno": "",
-    "età": "",
-    "città": "",
-    "instagram": "",
-    "foto": "foto/16.jpg"
+    "compleanno": "01/01/1000",
+    "foto": "foto/16.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
+  },
+  {
+    "id": "00",
+    "nome": "Francesca",
+    "cognome": "Albrizio",
+    "voto": "?,??",
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Frase di 217 caratter"
+  },
+  {
+    "id": 58,
+    "nome": "Giorgia Sofia",
+    "cognome": "Fede",
+    "voto": "?,??",
+    "compleanno": "01/01/1000",
+    "foto": "foto/47.jpg",
+    "età": 1025,
+    "città": "Lorem",
+    "instagram": "Ipsum",
+    "lingue": [
+      "Lorem",
+      "Ipsum"
+    ],
+    "patente": "Lorem",
+    "motorino": "Ipsum",
+    "descrizione": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore. Frase da 143 caratteri"
   }
 ]
