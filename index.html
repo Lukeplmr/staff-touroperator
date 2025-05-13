@@ -8,62 +8,80 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-  font-family: 'Georgia', serif;
-  margin: 0;
-  padding: 0;
-  background-color: #E4D6C5;
-}
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #6F4D38;  /* SFONDO */
+      }
 
-a {
-  color: inherit; 
-  text-decoration: none;
-}
+    a {
+      color: inherit; 
+      text-decoration: none;
+    }
 
-h2, h3 {
-  text-align: center;
-}
+    h2, h3 , h6{
+      text-align: center;
+    }
+    
+    h2 {
+      margin: 0;
+    }
 
-.card {
-  max-width: 800px;
-  margin: 2rem auto;
-  display: flex;
-  background: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  overflow: hidden;
-}
+    h6 {
+      margin: 0;
+      font-size: 0.8rem;
+      color: #333;
+    }
 
-.left {
-  flex: 1;
-  padding: 1rem 1rem 0rem 1rem;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #78898F;
-}
+    .card {
+      max-width: 800px;
+      margin: 2rem auto;
+      display: flex;
+      background-color: #78898F;    /* UGUALE A LEFT */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
 
-.left img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
+    .left {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      width: 100%;
+      background-color: #78898F;    /* SOPRA */
+    }
 
-.right .description {
-  font-size: 0.9rem;
-  text-align: center;
-  color: #090909;
-  font-family: 'Courier New', monospace;
-}
+    .left img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
 
-.right {
-  flex: 2;
-  padding: 0rem 1rem 1rem 1rem;
-  background-color: #8D957E;
-}
+    .left p {
+      margin-bottom: 0.2rem;
+      text-align: center;
+    }
+    
+    .right {
+      flex: 2;
+      padding: 0rem 1rem 1rem 1rem;
+      background-color: #8D957E;     /* SOTTO */
+      border-radius: 10px;
+    }
+      
+    .right .description {
+      font-size: 0.9rem;
+      text-align: center;
+      color: #090909;
+      font-family: 'Courier New', monospace;
+    }
+
+
 
 .right ul {
   padding-left: 1.2rem;
@@ -73,24 +91,22 @@ h2, h3 {
 
 .right li {
   list-style-type: disc;
-}
-
-.left h2 {
-  margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-.left p {
-  margin: 0.3rem;
-  text-align: center;
+
+
+.title {
+  margin-bottom: 1rem;
 }
+
 
 .badge {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #984216;
-  color: white;
+  background-color: #984216;      /* BADGE */
+  color: #FAFAFA;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -101,6 +117,12 @@ h2, h3 {
   font-size: 1rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+    
+    .flex-info {
+    display: flex;
+    justify-content: space-between;
+    }
+
 
 @media screen and (max-width: 600px) {
   body {
@@ -134,14 +156,17 @@ h2, h3 {
   }
 
   .right .description {
-    font-size: 3vw;
-    line-height: 1.2;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
   }
+
 
   .badge {
     top: 10px;
     left: 25px;
   }
+
+  
 }
 
   </style>
@@ -171,23 +196,32 @@ h2, h3 {
             <div class="left" style="position: relative;">
               <div class="badge">${candidato.id}</div>
               <img src="${candidato.foto}" alt="Foto di ${candidato.nome} ${candidato.cognome}">
+              <div class="title">
               <h2>${candidato.nome} ${candidato.cognome}</h2>
-              <p><strong>Giorno di nascita:</strong> ${candidato.compleanno}</p>
-              <p><strong>Età:</strong> ${candidato.età}</p>
+              <h6><a href="https://instagram.com/${candidato.instagram}" target="_blank">@${candidato.instagram}</a></h6>
+              </div>
+              <p><strong>Data di nascita:</strong> ${candidato.compleanno} ,  (<i>${candidato.età}</i> anni)</p>
               <p><strong>Città:</strong> ${candidato.città}</p>
-              <p><strong>Instagram:</strong> <a href="https://instagram.com/${candidato.instagram}" target="_blank">@${candidato.instagram}</a></p>
               <p><strong>Voto:</strong> ${candidato.voto}</p>
             </div>
 
             <div class="right">
-              <h3> Inormazioni </h3>
-              ${lingueHTML}
-              <p><strong>Ha la patente:</strong> ${candidato.patente}</p>
-              <p><strong>Guida il motorino:</strong> ${candidato.motorino}</p>
-
-
+              <div class="descriptions">
               <h3> Descrizione </h3>
               <div class="description"><strong>${candidato.descrizione}</strong></div>
+              </div>
+
+              <div class="info">
+                <h3>Informazioni Utili</h3>
+                ${lingueHTML}
+                <div class="flex-info">
+                  <p><i>Patente: <strong>${candidato.patente}</strong></i></p>
+                  <p><i>Guida il motorino: <strong>${candidato.motorino}</strong></i></p>
+                </div>
+              </div>
+
+
+              
             </div>
           `;
 
