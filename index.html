@@ -118,9 +118,17 @@
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
     
-    .flex-info {
-    display: flex;
-    justify-content: space-between;
+    .info-flex {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: space-between;
+      flex-wrap: wrap; /* per mobile */
+    }
+
+    .lingue-colonna,
+    .info-colonna {
+      flex: 1;
+      min-width: 100px; /* per evitare che si accavallino su schermi piccoli */
     }
 
 
@@ -184,10 +192,12 @@
         data.forEach(candidato => {
           const card = document.createElement('div');
           const lingueHTML = candidato.lingue?.length
-          ? `<p><strong>Lingue conosciute:</strong>
-            <ul>${candidato.lingue.map(lingua => `<li>${lingua}</li>`).join('')}</ul>
-             </p>`
-          : '';
+            ? `<div class="lingue-colonna">
+                 <p><strong>Lingue conosciute:</strong></p>
+                 <ul>${candidato.lingue.map(lingua => `<li>${lingua}</li>`).join('')}</ul>
+               </div>`
+            : '';
+
 
           card.className = 'card';
 
@@ -213,12 +223,16 @@
 
               <div class="info">
                 <h3>Informazioni Utili</h3>
-                ${lingueHTML}
-                <div class="flex-info">
-                  <p><i>Patente: <strong>${candidato.patente}</strong></i></p>
-                  <p><i>Guida il motorino: <strong>${candidato.motorino}</strong></i></p>
+                <div class="info-flex">
+                  ${lingueHTML}
+                  <div class="info-colonna">
+                    <p><strong>Patente: </strong><i>${candidato.patente}</i></p>
+                    <p><strong>Guida il motorino: </strong><i>${candidato.motorino}</i></p>
+                  </div>
                 </div>
               </div>
+
+
 
 
               
